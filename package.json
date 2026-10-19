@@ -1,0 +1,23 @@
+{
+  "name": "agent-rewind",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Time travel for agents: checkpoint/rewind state timelines, fork alternate branches, and deterministically replay recorded tool runs.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "agent-tools": "github:theAliCanAcar/agent-tools#main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theAliCanAcar/agent-rewind.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theAliCanAcar/agent-rewind/issues"
+  },
+  "homepage": "https://github.com/theAliCanAcar/agent-rewind#readme"
+}
